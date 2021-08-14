@@ -8,10 +8,10 @@ Rails.application.routes.draw do
   end
 
   resources :products, only: [:show] do
-    resources :sessions_items, only: [:create]
+    resources :session_items, only: [:create]
   end
 
-  resources :sessions_items, only: [:index, :destroy] #question?  resources :sessions, only: [:show] (nested?)
+  resources :session_items, only: [:index, :destroy] #question?  resources :sessions, only: [:show] (nested?)
 
   resources :sessions, only: [:show, :edit, :update, :destroy]
 
