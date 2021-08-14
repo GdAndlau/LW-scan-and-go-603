@@ -1,4 +1,4 @@
-.nav-title{
+.bottom-title{
   max-width: 25em;
   padding: 1em 3em 1em 3em;
   margin: 0em auto;
@@ -6,14 +6,7 @@
   background: linear-gradient(#DA52FE, #9198e5);
 }
 
-.nav-content{
+.bottom-content{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
-
-.ampersand{
-  color: white;
-}
-
-
-
