@@ -1,12 +1,41 @@
-.bottom-title{
-  max-width: 25em;
-  padding: 1em 3em 1em 3em;
-  margin: 0em auto;
-  text-align: center;
-  background: linear-gradient(#DA52FE, #9198e5);
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  .bottom-container{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(#DA52FE, #9198e5);
+  }
+
+  .bottom-icones{
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
-.bottom-content{
-  display: flex;
-  justify-content: space-around;
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
 }
+
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+

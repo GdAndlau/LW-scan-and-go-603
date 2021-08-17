@@ -1,4 +1,46 @@
-.fas {
-  font-size: 45px;
-  color: white;
- }
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .fas {
+    font-size: 45px;
+    color: white;
+    padding-top: 15px;
+  }
+
+  .fa-arrow-left{
+    font-size: 25px;
+    position: relative;
+    right: 65px;
+    bottom: 2px;
+  }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+  .fa-arrow-left{
+    font-size: 25px;
+    position: relative;
+    right: 85px;
+    bottom: 2px;
+  }
+
+}
+
+/* ----------- iPhone X ----------- */
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+  .fa-arrow-left{
+    right: 55px;
+  }
+
+}
